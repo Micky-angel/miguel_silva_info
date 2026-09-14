@@ -13,6 +13,10 @@ permalink: /aess-bolivia/
 
 # AESS Bolivia
 
+<div class="banner-logo">
+  <img src="{{ '/assets/img/light-bg.png' | relative_url }}" alt="Logo AESS Bolivia">
+</div>
+
 Presido el **Capítulo Estudiantil IEEE Aerospace and Electronic Systems
 Society (AESS)** en Bolivia: una comunidad que impulsa el interés por la
 ingeniería aeroespacial y de sistemas electrónicos entre estudiantes
@@ -29,8 +33,24 @@ bolivianos, conectándolos con la red global de la IEEE.
 <div class="tarjeta" markdown="1">
 ## Actividades destacadas
 - **Primer Encuentro Aeroespacial Boliviano (AESSBAM)** — La Paz, Bolivia *(Dic 2025)*. Organizador principal.
+- Delegación boliviana en el **Taller de Generación Espacial Sudamericano (SGW)** de la SGAC — Santiago, Chile.
+- Presencia en **FIDAE**, la Feria Internacional del Aire y del Espacio.
 - Vinculación con la **Semana CONSTELACIÓN LATAM** junto a SGAC Latinoamérica.
-- Participación boliviana en talleres de generación espacial de la SGAC (Sudamérica).
+</div>
+
+<div class="foto-grid">
+  <figure>
+    <img src="{{ '/assets/img/eventos/sgw-chile.jpg' | relative_url }}" alt="Taller de Generación Espacial Sudamericano, Chile" loading="lazy">
+    <figcaption>Taller de Generación Espacial Sudamericano — Chile</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/eventos/sgw-chile-2.jpg' | relative_url }}" alt="Delegación en el SGW, Chile" loading="lazy">
+    <figcaption>Delegación en el SGW — SGAC</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/eventos/fidae.jpg' | relative_url }}" alt="En FIDAE, Feria Internacional del Aire y del Espacio" loading="lazy">
+    <figcaption>FIDAE — Feria Internacional del Aire y del Espacio</figcaption>
+  </figure>
 </div>
 
 <div class="tarjeta" markdown="1">

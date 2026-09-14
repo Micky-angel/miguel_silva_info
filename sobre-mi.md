@@ -8,15 +8,20 @@ permalink: /sobre-mi/
 
 # Miguel Ángel Silva Plata
 
-Estudiante de 9.º semestre de **Ingeniería Mecatrónica** en la Universidad
+<div class="perfil">
+<img src="{{ '/assets/img/miguel-2025.jpg' | relative_url }}" alt="Miguel Ángel Silva Plata">
+<div class="perfil-texto">
+<p>Estudiante de 9.º semestre de <strong>Ingeniería Mecatrónica</strong> en la Universidad
 Católica Boliviana, con un fuerte enfoque en Electrónica y Sistemas de Control.
 Actualmente Presidente del Capítulo Estudiantil IEEE Aerospace and Electronics
 Systems Society. Contribuyo en investigaciones sobre sistemas de control de
 satélites como líder de la división estudiantil del proyecto nacional apoyado
-por la UNOOSA: **WASKIRI-SAT-BOLIVIA**. He publicado 6 artículos de
+por la UNOOSA: <strong>WASKIRI-SAT-BOLIVIA</strong>. He publicado 6 artículos de
 investigación en ingeniería mecatrónica y espacial (4 como autor principal y
 2 como coautor), con experiencia en diseño, prototipado y construcción de
-equipos robóticos, además de docencia académica.
+equipos robóticos, además de docencia académica.</p>
+</div>
+</div>
 
 <div class="tarjeta" markdown="1">
 ## Datos

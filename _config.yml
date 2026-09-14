@@ -24,3 +24,11 @@ navegacion:
 
 # No suele hacer falta tocar esto
 markdown: kramdown
+
+# Archivos que NO deben publicarse en el sitio
+exclude:
+  - build_preview.py
+  - preview.bat
+  - Gemfile
+  - README.md
+  - photos/

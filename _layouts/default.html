@@ -13,22 +13,30 @@
 <body class="pagina-{{ page.title | downcase | replace: ' ', '-' }}">
 
   <header class="cabecera">
-    <div class="contenedor cabecera-inner">
-      <a class="marca" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
-      <label for="menu-toggle" class="hamburguesa" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </label>
-      <nav class="menu">
-        {% for item in site.navegacion %}
-          {% assign actual = page.url | remove: 'index.html' %}
-          <a href="{{ item.url | relative_url }}"
-             class="{% if actual == item.url %}activo{% endif %}">
-            {{ item.titulo }}
-          </a>
-        {% endfor %}
-      </nav>
-      <span class="nav-derecha" aria-hidden="true"></span>
+    <div class="barra-superior">
+      <div class="contenedor barra-inner">
+        <a class="marca" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+        <a class="barra-cta" href="https://linkedin.com/in/miguel-angel-silva-plata/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="cabecera-nav">
+      <div class="contenedor cabecera-inner">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+        <label for="menu-toggle" class="hamburguesa" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </label>
+        <span class="nav-izq" aria-hidden="true"></span>
+        <nav class="menu">
+          {% for item in site.navegacion %}
+            {% assign actual = page.url | remove: 'index.html' %}
+            <a href="{{ item.url | relative_url }}"
+               class="{% if actual == item.url %}activo{% endif %}">
+              {{ item.titulo }}
+            </a>
+          {% endfor %}
+        </nav>
+        <span class="nav-derecha" aria-hidden="true"></span>
+      </div>
     </div>
   </header>
 
