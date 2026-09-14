@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700">
+  <rect width="600" height="700" fill="#140f28"/>
+  <circle cx="300" cy="270" r="120" fill="#3a2d63"/>
+  <path d="M120 620c0-99 81-170 180-170s180 71 180 170z" fill="#3a2d63"/>
+  <text x="300" y="670" text-anchor="middle" font-family="Arial" font-size="26" fill="#b98cf0">Foto de la persona</text>
+</svg>

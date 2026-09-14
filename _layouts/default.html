@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="pagina-{{ page.title | downcase | replace: ' ', '-' }}">
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-inner">
+      <a class="marca" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+      <label for="menu-toggle" class="hamburguesa" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="menu">
+        {% for item in site.navegacion %}
+          {% assign actual = page.url | remove: 'index.html' %}
+          <a href="{{ item.url | relative_url }}"
+             class="{% if actual == item.url %}activo{% endif %}">
+            {{ item.titulo }}
+          </a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor contenido">
+    {{ content }}
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
+    </div>
+  </footer>
+
+</body>
+</html>

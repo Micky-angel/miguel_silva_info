@@ -1,0 +1,58 @@
+# ==========================================================
+#  LISTA DE DONACIONES  —  
+# ==========================================================
+
+# Columna 1: Ayni
+donantes:
+  - Ana Torres
+  - Luis Fernández
+  - María Gómez
+  - Carlos Ramírez
+  - Sofía Herrera
+  - Diego Morales
+  - Valentina Ríos
+  - Javier Castro
+  - Camila Vega
+  - Andrés Rojas
+  - Lucía Mendoza
+  - Mateo Silva
+  - Isabela Cruz
+  - Sebastián Núñez
+  - Daniela Ortiz
+  - Gabriel Peña
+  - Fernanda Ruiz
+  - Tomás Aguilar
+  - Paula Jiménez
+  - Nicolás Flores
+  - Renata Campos
+  - Emilio Guerra
+  - Antonia Reyes
+  - Martín Delgado
+  - Sara Navarro
+  - Bruno Salazar
+  - Elena Vargas
+  - Iván Cabrera
+  - Noelia Paredes
+  - Óscar Fuentes
+
+# Columna 2: Gran Ayni
+grandes:
+  - Ricardo Bravo
+  - Patricia León
+  - Álvaro Miranda
+  - Verónica Soto
+  - Hugo Cárdenas
+  - Marcela Pinto
+  - Felipe Andrade
+  - Rosa Escobar
+  - Manuel Zúñiga
+  - Beatriz Cordero
+  - Rodrigo Villalba
+  - Carla Sepúlveda
+  - Esteban Maldonado
+  - Lorena Bustamante
+  - Gustavo Tapia
+
+# Columna 3: Ayni Extraordinario
+empresas:
+  - MagnaFuel

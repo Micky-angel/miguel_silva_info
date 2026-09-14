@@ -1,0 +1,22 @@
+# ==========================================================
+#  CONFIGURACIÓN DEL SITIO  (edita aquí los datos generales)
+# ==========================================================
+title: "Miguel Silva"
+description: "Proyecto de la NASA — Miguel Silva"
+author: "Miguel Silva"
+
+# Si publicas en GitHub Pages como  usuario.github.io/pwebMiguel
+# descomenta la línea de abajo y pon el nombre del repositorio:
+# baseurl: "/pwebMiguel"
+
+# Pestañas del menú superior (orden = orden en que aparecen)
+navegacion:
+  - titulo: "Inicio"
+    url: "/"
+  - titulo: "Programa"
+    url: "/proyecto/"
+  - titulo: "Sobre mí"
+    url: "/sobre-mi/"
+
+# No suele hacer falta tocar esto
+markdown: kramdown

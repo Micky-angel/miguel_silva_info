@@ -1,0 +1,10 @@
+# ==========================================================
+#  COLABORADORES  —  logotipos al final del proyecto
+#  Para cada uno:
+#    - nombre:  el nombre (se muestra si aún no hay logo)
+#    - logo:    ruta del logo dentro de assets/img/logos/
+#  Coloca los archivos de logo en:  assets/img/logos/
+# ==========================================================
+
+- nombre: MagnaFuel
+  logo: /assets/img/logos/logo-magnafuel.png

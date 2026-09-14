@@ -1,0 +1,31 @@
+---
+layout: default
+title: Inicio
+# ---- EDITA AQUÍ EL CONTENIDO DE LA PORTADA ----
+imagen: /assets/img/miguel-portada.jpg   # foto: pon la tuya en assets/img/ y cambia el nombre aquí
+etiqueta: IASP 2026 · NASA
+titulo: Rumbo al International Air and Space Program
+descripcion: >
+  Fui seleccionado para el International Air and Space Program (IASP), una
+  experiencia de una semana en Houston, Texas, junto a ingenieros de la NASA:
+  entrenamiento astronáutico, flotación neutra, control de misión y proyectos
+  aeroespaciales reales. Tu apoyo hace posible este sueño.
+boton_texto: Más sobre la actividad
+boton_url: /proyecto/
+---
+
+<div class="astronauta-fondo" aria-hidden="true"></div>
+
+<section class="portada">
+  <div class="foto">
+    <img src="{{ page.imagen | relative_url }}" alt="{{ site.author }}">
+  </div>
+  <div class="texto-top">
+    <span class="etiqueta">{{ page.etiqueta }}</span>
+    <h1>{{ page.titulo }}</h1>
+  </div>
+  <div class="texto-bottom">
+    <p>{{ page.descripcion }}</p>
+    <a class="boton menta-solido" href="{{ page.boton_url | relative_url }}">{{ page.boton_texto }}</a>
+  </div>
+</section>
