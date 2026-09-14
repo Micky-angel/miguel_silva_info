@@ -13,14 +13,14 @@ author: "Miguel Silva"
 navegacion:
   - titulo: "Inicio"
     url: "/"
+  - titulo: "Sobre mí"
+    url: "/sobre-mi/"
   - titulo: "Investigaciones"
     url: "/investigaciones/"
   - titulo: "Aexa IASP"
     url: "/aexa-iasp/"
   - titulo: "AESS Bolivia"
     url: "/aess-bolivia/"
-  - titulo: "Sobre mí"
-    url: "/sobre-mi/"
 
 # No suele hacer falta tocar esto
 markdown: kramdown
