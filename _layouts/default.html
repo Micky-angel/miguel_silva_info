@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.title | default: site.title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body class="pagina-{{ page.title | downcase | replace: ' ', '-' }}">
@@ -24,6 +28,7 @@
           </a>
         {% endfor %}
       </nav>
+      <span class="nav-derecha" aria-hidden="true"></span>
     </div>
   </header>
 
@@ -33,7 +38,14 @@
 
   <footer class="pie">
     <div class="contenedor">
-      <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
+      <div class="pie-links">
+        <a href="https://linkedin.com/in/miguel-angel-silva-plata/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ '/investigaciones/' | relative_url }}">Investigaciones</a>
+        <a href="{{ '/aexa-iasp/' | relative_url }}">Aexa IASP</a>
+        <a href="{{ '/aess-bolivia/' | relative_url }}">AESS Bolivia</a>
+        <a href="{{ '/sobre-mi/' | relative_url }}">Sobre mí</a>
+      </div>
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }} · IASP 2026 · Bolivia</p>
     </div>
   </footer>
 

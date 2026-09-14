@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Programa
-permalink: /proyecto/
+title: Aexa IASP
+permalink: /aexa-iasp/
 ---
 
-<span class="etiqueta">International Air and Space Program </span>
+<span class="etiqueta">International Air and Space Program</span>
 
+# Aexa IASP 2026
 
-El **IASP (International Air and Space Program)** es una iniciativa educativa
-en la que estudiantes y graduados de todo el mundo trabajan en proyectos
-aeroespaciales reales junto a ingenieros y profesionales expertos de la NASA.
-
+El **IASP (International Air and Space Program)**, organizado por **AEXA
+(Advanced Explorations Association)**, es una iniciativa educativa en la que
+estudiantes y graduados de todo el mundo trabajan en proyectos aeroespaciales
+reales junto a ingenieros y profesionales expertos de la NASA, en Houston, Texas.
 
 <div class="tarjeta" markdown="1">
 ### Actividades
@@ -24,9 +25,8 @@ aeroespaciales reales junto a ingenieros y profesionales expertos de la NASA.
 - y más
 </div>
 
-
 <div class="tarjeta" markdown="1">
-### Fui seleccionado por mi perfil de investigador en ingeniería espacial y robótica!
+### Fui seleccionado por mi perfil de investigador en ingeniería espacial y robótica
 <div class="carta-fila">
 <figure class="figura">
   <img src="{{ '/assets/img/carta.png' | relative_url }}" alt="Carta de selección IASP 2026">
@@ -37,50 +37,13 @@ Participaré en esta versión 2026 representando a Bolivia. El programa tiene un
 </div>
 </div>
 
+## Apoyo recibido
 
-
-## Apoyo Recibido
 Agradezco a todas las personas, redes de prensa y amigos que me han ayudado en la difusión de mi participación en este programa. También les agradezco profundamente por sus aportes voluntarios. Después del evento prepararé charlas y talleres para difundir esta experiencia con el fin de motivarles a que sean la próxima generación de bolivianos en este programa.
-
-
-<!--
-<div class="donaciones">
-
-  <div class="col">
-    <p class="col-titulo">Colaboradores</p>
-    <div class="col-ventana">
-      <ul class="track track-1">
-        {% for n in site.data.donaciones.donantes %}<li>{{ n }}</li>{% endfor %}
-        {% for n in site.data.donaciones.donantes %}<li>{{ n }}</li>{% endfor %}
-      </ul>
-    </div>
-  </div>
-
-  <div class="col">
-    <p class="col-titulo"></p>
-    <div class="col-ventana">
-      <ul class="track track-2">
-        {% for n in site.data.donaciones.grandes %}<li>{{ n }}</li>{% endfor %}
-        {% for n in site.data.donaciones.grandes %}<li>{{ n }}</li>{% endfor %}
-      </ul>
-    </div>
-  </div>
-
-  <div class="col">
-    <p class="col-titulo"></p>
-    <div class="col-ventana">
-      <ul class="track track-3 estatica">
-        {% for n in site.data.donaciones.empresas %}<li>{{ n }}</li>{% endfor %}
-      </ul>
-    </div>
-  </div>
-
-</div>
--->!
 
 ## Brochure
 
-<a class="boton menta" href="{{ '/assets/doc/brochure.pdf' | relative_url }}" target="_blank" rel="noopener">📄 Ver brochure (PDF)</a>
+<a class="boton" href="{{ '/assets/doc/brochure.pdf' | relative_url }}" target="_blank" rel="noopener">Ver brochure (PDF)</a>
 
 <iframe class="pdf-visor" src="{{ '/assets/doc/brochure.pdf' | relative_url }}" title="Brochure IASP 2026"></iframe>
 
@@ -94,4 +57,4 @@ Agradezco a todas las personas, redes de prensa y amigos que me han ayudado en l
   {% endfor %}
 </div>
 
-<a class="boton menta-solido" href="{{ '/sobre-mi/' | relative_url }}">Sobre mí →</a>
+<p style="margin-top:32px"><a class="boton-texto" href="{{ '/sobre-mi/' | relative_url }}">Sobre mí</a></p>
